@@ -108,11 +108,24 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 18px;
   letter-spacing: 2.30625px;
 }
+
 .story__title {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 70px;
 }
-.title__line {
+.story__title::after {
+  margin: 0 auto;
+}
+
+.section__title::after {
+  content: '';
+  width: 50px;
+  height: 2px;
+  background-color: var(--acent);
+  display: block;
+  margin-top: 10px;
+}
+/* .title__line {
   width: 50px;
   height: 2px;
   background-color: var(--acent);
@@ -121,7 +134,7 @@ h1, h2, h3, h4, h5, h6, p {
 .story__line {
   margin: 0 auto;
   margin-bottom: 80px;
-}
+} */
 .story__wrap {
   display: flex;
   justify-content: space-between;
@@ -129,6 +142,7 @@ h1, h2, h3, h4, h5, h6, p {
 .story__left {
   width: 395px;
   color: var(--text);
+  letter-spacing: 0.1875px;
 }
 .story__left__title {
   font-weight: 700;
@@ -168,5 +182,65 @@ h1, h2, h3, h4, h5, h6, p {
 .story__right__item:nth-child(3) {
   background-image: url(../img/story/3.png);
 }
+
+/* services */
+.services {
+  padding: 115px 0;
+}
+.services__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 78px;
+}
+.services__descr {
+  font-size: 11px;
+  color: var(--text);
+  width: 390px;
+  letter-spacing: 0.2px;
+}
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  background-color: var(--acent);
+  padding: 11px 29px;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+.services__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 28px;
+  color: var(--text);
+}
+.services__content__item {
+  width: 295px;
+  border: 1px solid #E6E6E6;
+  padding: 38px 0 39px 23px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  cursor: pointer;
+}
+.services__content__item:hover {
+  transform: scale(1.05);
+  transition: var(--trans);
+}
+.services__item__img {
+  margin-bottom: 25px;
+}
+.services__item__title {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0.426667px;
+  margin-bottom: 13px;
+}
+.services__item__descr {
+  font-size: 13px;
+  letter-spacing: 0.1875px;
+  width: 250px;
+}
+
 
 
