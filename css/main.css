@@ -198,6 +198,7 @@ h1, h2, h3, h4, h5, h6, p {
   color: var(--text);
   width: 390px;
   letter-spacing: 0.2px;
+  margin-left: 140px;
 }
 .btn {
   text-decoration: none;
@@ -208,6 +209,13 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 11px 29px;
   color: #fff;
   letter-spacing: 0.5px;
+  border: 1px solid transparent
+}
+.btn:hover {
+  background-color: transparent;
+  border: 1px solid var(--acent);
+  color: var(--acent);
+  transition: var(--trans);
 }
 .services__content {
   display: flex;
@@ -240,6 +248,23 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 13px;
   letter-spacing: 0.1875px;
   width: 250px;
+}
+
+/* cta */
+.cta {
+  padding: 120px 0 130px;
+  background: url(../img/cta/bg_cta.jpg) no-repeat center / cover;
+  text-align: center;
+  height: 500px;
+}
+.cta__title {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0 auto;
+  margin-bottom: 35px;
+  letter-spacing: 0.15px;
+  width: 350px;
 }
 
 
