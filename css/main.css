@@ -209,7 +209,7 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 11px 29px;
   color: #fff;
   letter-spacing: 0.5px;
-  border: 1px solid transparent
+  border: 1px solid transparent;
 }
 .btn:hover {
   background-color: transparent;
@@ -266,6 +266,37 @@ h1, h2, h3, h4, h5, h6, p {
   letter-spacing: 0.15px;
   width: 350px;
 }
+
+/* signup */
+.signup {
+  padding: 30px 0;
+  background-color: #171819;
+}
+.signup__wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup__title {
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+  letter-spacing: 0.846154px;
+  margin-right: 70px;
+}
+.signup__input {
+  border: 1px solid #979797;
+  width: 250px;
+  height: 42px;
+  padding-left: 16px;
+  font-size: 14px;
+  color: var(--text);
+  letter-spacing: 0.07px;
+}
+.signup__input:focus {
+  outline: 0;
+}
+
 
 
 
