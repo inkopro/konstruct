@@ -294,6 +294,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 14px;
   color: var(--text);
   letter-spacing: 0.07px;
+  margin-right: -4px;
 }
 .signup__input:focus {
   outline: 0;
